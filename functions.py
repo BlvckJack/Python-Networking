@@ -27,6 +27,8 @@ def checkVulns(banner):
         print("[+] FreeFloat FTP Server is vulnerable.")
     elif("Ability FTP Server" in banner):
         print("[+]  Ability FTP Server is vulnerable." )
+
+    # SSH Servers
     elif ("SSH-2.0-OpenSSH" in banner):
         print("[+] SSH-2.0-OpenSSH Server is vulnereable")
     else:
